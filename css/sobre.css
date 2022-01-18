@@ -1,27 +1,26 @@
-p {
-    color: lavender ;
-    background-color: black;
-}
+
 
 h1 {
-    font-family: serif;
     background-image: url(/img/sobre-background.jpg);
+    
 }
 
 h2 {
-    font-family: sans-serif;
-}
-
-p {
-    font-family: monospace;
-    text-align: right;
+    border-bottom: 2px solid #333333;
+    
 }
 
 body{
-    font-family: "Arial", "Helvetica", sans-serif;
-    border-color: red;
-    border-style: solid;
-    border-width: 1px;
-    /* DEIXANDO O FUNDO RIDICULO */
-    background: gold;
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+figure {
+    background-color: #f2eded;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
 }
