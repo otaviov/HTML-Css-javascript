@@ -1,0 +1,16 @@
+p {
+    color: lavender ;
+    background-color: black;
+}
+
+h1 {
+    font-family: serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: monospace;
+}
