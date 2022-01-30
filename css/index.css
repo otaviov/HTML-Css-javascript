@@ -82,6 +82,9 @@ header {
 
 .menu-departamentos{
     clear: left;
+
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 .destaque{
