@@ -105,3 +105,12 @@ header {
     float: right;
 }
 
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
