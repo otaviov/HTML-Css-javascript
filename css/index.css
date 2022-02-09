@@ -134,11 +134,13 @@ header {
 }
 
 footer {
-    background-image: url(/img/fundo-rodape.png);
 
     clear: both;
 
-    padding: 20px 0;
+    background-image: url(/img/fundo-rodape.png);
+
+    padding: 15px 0;
+    
 }
 
 footer .container {
