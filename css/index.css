@@ -175,5 +175,6 @@ footer .container {
 }
 
 .social li {
-    
+    float: left;
+    margin-left: 25px;
 }
