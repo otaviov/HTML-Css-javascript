@@ -6,6 +6,10 @@
 
 O HTML é um conjunto de tags responsáveis pela marcação do conteúdo de uma página no navegador. No código que vimos antes, as tags são os elementos a mais que escrevemos usando a sintaxe <nomedatag>. Diversas tags são disponibilizadas pela linguagem HTML e cada uma possui uma funcionalidade específica.
 
+## CSS
+
+Cascading Style Sheet, mais conhecido como CSS, é uma linguagem de estilos que, assim como o HTML, também não é considerada uma linguagem de programação. Ela é responsável por separar a parte estrutural da aplicação (que ficará nas mãos do HTML) da parte estética.
+
 
 ## JavaScript 
 
