@@ -29,8 +29,3 @@ for(var i = 1; i<=10; i++){
 }
 */
 
-// 2. Escreva um código que calcule a soma de 1 até 100. (obs: a resposta é 5050)
-
-var soma = 0;
-
-for
