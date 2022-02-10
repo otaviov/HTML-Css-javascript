@@ -1,9 +1,14 @@
 
-function validaBusca(){
+document.querySelector('#form-busca').onsubmit = function(){
     if(document.querySelector('#q').value == ''){
-        alert("O campo de busca está vazio!");
+        document.querySelector('#form-busca').style.background = 'red';
         return false;
+       
     }
 }
 
-document.querySelector('#form-busca').onsubmit = validaBusca;
+var myElement = document.querySelector('#form-busca');
+
+myElement.onfocus = function() {
+    console.log('onfocus event occurred.');
+};
