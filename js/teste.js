@@ -1,3 +1,7 @@
-var curso = "Oi pessoal! :)";
+/*var pessoas = ["João", "José", "Maria", "Antonio", "Inacio"];
 
-alert(curso);
+for(var i = 0; i < pessoas.length; i++){
+    alert(pessoas[i]);
+
+}*/
+
