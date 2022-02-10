@@ -1,7 +1,7 @@
 
 function validaBusca(){
     if(document.querySelector('#q').value == ''){
-        alert('O campo de busca está vazio!');
+        alert("O campo de busca está vazio!");
         return false;
     }
 }
