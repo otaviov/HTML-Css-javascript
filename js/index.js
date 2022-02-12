@@ -23,4 +23,19 @@ function trocaBanner(){
     document.querySelector('.destaque img').src = banners[bannerAtual];
 }
 
-setInterval(trocaBanner, 4000);
+
+var timer = setInterval(trocaBanner, 4000);
+var controle = document.querySelector('.pause');
+
+controle.oneClick = function() {
+    if (controle.className == 'pause') {
+        clearInterval(timer);
+        controle.className = 'play';
+    } else {
+        timer = this.setInterval(trocaBanner, 4000);
+        controle.className = 'pause';
+    }
+
+    return false;
+}
+
