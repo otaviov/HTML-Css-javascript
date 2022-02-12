@@ -89,6 +89,16 @@ header {
 
 .destaque{
     margin-top: 10px;
+
+    position: relative;
+}
+
+.pause, 
+.play {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
 
 .painel{
@@ -180,3 +190,4 @@ footer .container {
     float: left;
     margin-left: 25px;
 }
+
