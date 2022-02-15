@@ -11,7 +11,7 @@ var myElement = document.querySelector('#form-busca');
 
 myElement.onfocus = function() {
     console.log('onfocus event occurred.');
-};
+}
 
 // Adicionando banner rotativo
 
@@ -38,5 +38,5 @@ controle.oneClick = function() {
     }
 
     return false;
-};
+}
 
