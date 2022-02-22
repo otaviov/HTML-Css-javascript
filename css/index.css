@@ -91,7 +91,7 @@ header {
 } 
 
 .menu-departamentos li li a:before {
-    content: '- ';
+    content: '\2771 ';
 } /* final do submenu */
 
 .menu-departamentos a{
