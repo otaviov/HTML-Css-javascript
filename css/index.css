@@ -28,6 +28,16 @@ body {
     
 }
 
+/* Muda cor quando passa o mouse nos links do menu*/
+.menu-opcoes a:hover {
+    color: gray;
+}
+
+.menu-opcoes a:active {
+    color: blue;
+}
+
+
 .container {
     margin: 0 auto;
     width: 940px;
@@ -66,6 +76,23 @@ header {
     margin-bottom: 1px;
     padding: 5px 10px;
 }
+
+/* Criando submenu do BLUSAS E CAMISAS*/
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #dcdcdc;
+} 
+
+.menu-departamentos li li a:before {
+    content: '- ';
+} /* final do submenu */
 
 .menu-departamentos a{
     color: #333333;
