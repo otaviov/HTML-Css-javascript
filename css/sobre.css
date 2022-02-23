@@ -42,11 +42,9 @@ p{
 }
 
 
-
 :not(p) + p:first-line {
     font-variant: small-caps;
 }
-
 
 
 #centro-distribuicao{
