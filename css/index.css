@@ -203,6 +203,13 @@ header {
     text-decoration: none;
 }
 
+.painel li:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0px 10px #333;
+    transition: box-shadow 0.8s;
+    transform: scale(1.1);
+}
+
 footer {
 
     clear: both;
