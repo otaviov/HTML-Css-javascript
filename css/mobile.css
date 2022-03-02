@@ -14,12 +14,12 @@ header h1 img {
     display: none;
 }
 
-.menu-opçoes {
+.menu-opcoes {
     position: static;
     text-align: center;
 }
 
-.menu-opçoes ul li {
+.menu-opcoes ul li {
     display: inline-block;
     margin: 5px;
 }
@@ -42,3 +42,11 @@ header h1 img {
 .painel img {
     width: 100%;
 }
+
+.play, .pause { 
+    top: auto; 
+    right: auto; 
+    left: 10px; 
+    bottom: 10px; 
+}
+
